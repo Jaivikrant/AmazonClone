@@ -1,0 +1,40 @@
+.subtotal{
+    background-color: white;
+}
+.total{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #cd9042;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+}
+.total1{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    font-size: 1.4rem;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+.a{
+    font-weight: 600;
+}
+.b{
+    font-weight: 400;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+button{
+    border: none;
+    height: 2.5rem;
+    font-size: 1rem;
+    background: black;
+    width: 100vw;
+    margin-top: 1vh;
+    color: white;
+    
+
+}

@@ -1,0 +1,19 @@
+.home{
+    max-width: 90vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color:grey;
+
+}
+.home__image{
+    width: 100%;
+     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); 
+    z-index: -1;
+    margin-bottom: -300px;
+}
+.home__row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+
+}
